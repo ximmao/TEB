@@ -86,3 +86,18 @@ python -u train_TE.py --device cuda --seed 0 --config_file TASK_YAML_FILE --log_
 ```
 python -u test_TE.py --device cuda --seed 0 --config_file TASK_YAML_FILE --log_dir YOUR_LOG_DIR --Y_checkpoint Y_EPOCH_IDX --TE_checkpoint TE_EPOCH_IDX
 ```
+
+## Citation
+
+If you use this code, please cite our paper:
+
+```bibitex
+@article{kalajdzievski2023transfer,
+    title={Transfer Entropy Bottleneck: Learning Sequence to Sequence Information Transfer},
+    author={Damjan Kalajdzievski and Ximeng Mao and Pascal Fortier-Poisson and Guillaume Lajoie and Blake Aaron Richards},
+    journal={Transactions on Machine Learning Research},
+    issn={2835-8856},
+    year={2023},
+    url={https://openreview.net/forum?id=kJcwlP7BRs},
+}
+```
